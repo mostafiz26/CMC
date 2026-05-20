@@ -60,7 +60,7 @@ Set your token: `huggingface-cli login`
 
 ## Hardware
 
-All experiments in the paper were run on a single **NVIDIA A100 80 GB** GPU.
+All experiments in the paper were run on **NVIDIA A100 80 GB** GPU.
 Training one epoch with the full SQuAD split (86k examples, GPT2-Large + Llama-3-8B) takes approximately **X hours** on an A100.
 
 ---
