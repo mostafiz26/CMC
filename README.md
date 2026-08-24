@@ -1,7 +1,5 @@
 # Compressing Long Context into Answer-Aligned Memory Embeddings for LLM Inference
 
----
-
 ## Overview
 
 **CMC** (Context to Answer-Aligned Memory Compression) is a soft-compression framework that compresses long input contexts into compact **Context Memory Embeddings (CMEs)** aligned to any frozen decoder's embedding space, enabling efficient LLM inference without modifying decoder weights.
