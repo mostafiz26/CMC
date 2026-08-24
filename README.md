@@ -21,9 +21,8 @@ Training uses two phases:
 - **Phase-1** (Decoder Alignment): AE + AR reconstruction objectives
 - **Phase-2** (Answer-Targeted Distillation): CE + KL + contrastive memory-answer alignment using a frozen Educator LLM
 
----
-
 ![Overview of the CMC framework](CMC_Framework9.png)
+---
 
 ## Repository Structure
 
