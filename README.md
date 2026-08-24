@@ -23,6 +23,8 @@ Training uses two phases:
 
 ---
 
+![Overview of the CMC framework](CMC_Framework9.png)
+
 ## Repository Structure
 
 ```
