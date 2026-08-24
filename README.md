@@ -1,8 +1,5 @@
 # Compressing Long Context into Answer-Aligned Memory Embeddings for LLM Inference
 
-> Anonymous submission — ACL 2026 review cycle.
-> Code and model checkpoints will be released publicly upon acceptance.
-
 ---
 
 ## Overview
