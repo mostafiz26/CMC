@@ -10,7 +10,7 @@ CMC comprises three components:
 |---|---|
 | **ContextEncoder** | Trainable causal LM that produces CMEs via `<MEM>` placeholder tokens after graph-based context denoising |
 | **MemoryBridge** | Norm-calibrated two-layer MLP projecting CMEs from encoder space into the frozen decoder's embedding space |
-| **Two-tier KV cache** | Tier-1: question-guided top-K CME selection; Tier-2: answer-centred local context window at full token resolution |
+| **Two-tier KV cache** | Tier-1: question-guided top-K CME selection; Tier-2: local context window at full token resolution |
 
 Training uses two phases:
 - **Phase-1** (Decoder Alignment): AE + AR reconstruction objectives
