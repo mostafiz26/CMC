@@ -16,7 +16,7 @@ Training uses two phases:
 - **Phase-1** (Decoder Alignment): AE + AR reconstruction objectives
 - **Phase-2** (Answer-Targeted Distillation): CE + KL + contrastive memory-answer alignment using a frozen Educator LLM
 
-![Overview of the CMC framework](CMC_Framework9.png)
+![Overview of the CMC framework](CMC_Framework10.png)
 Figure: Overview of the CMC framework: ($i$) context denoising and chunked compression via ContextEncoder, $ii$) cross-architecture projection via MemoryBridge, and ($iii$) two-tier KV cache inference via DecoderLLM with question-guided Tier-1 CME selection and Tier-2 local window.
 
 ---
