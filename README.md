@@ -1,4 +1,4 @@
-# Compressing Long Context into Answer-Aligned Memory Embeddings for LLM Inference
+# Compressing Long Context into Answer-Aligned Memory Embeddings
 
 ## Overview
 
